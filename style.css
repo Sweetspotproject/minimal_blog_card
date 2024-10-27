@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+
+html, body{
+  background-color: #FAFAF9;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.Card{
+  background-color: #FFFFFF;
+  width: 400px;
+  height: 400px;
+  border-radius: 14px;
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.09);
+}
+
+
+img{
+  width: 350px;
+  border-radius: 12px;
+  margin: 25px;
+}
+
+.category{
+  background-color: #E6D6FC;
+  color: #883AE1;
+  width: 70px;
+  height: 24px;
+  margin: 0 0 6px 12px;
+  text-align: center;
+  align-items: center;
+  border-radius: 14px;
+  padding: 2px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.content{
+  padding: 14px;
+}
+
+h1{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+p{
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 20px;
+  color: #6C727F;
+  margin: 4px 0 0 0;
+}
+
+hr{
+  height: 1px;
+  border: none;
+  border-top: 1px solid #ddd;
+  width: 100%;
+}
+
+.autor{
+  font-size: 12px;
+  font-weight: 400;
+  color: #6C727F;
+  padding: 8px 16px;
+}
